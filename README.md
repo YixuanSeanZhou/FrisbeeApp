@@ -5,8 +5,8 @@ Collaborators:
  - Thomas Zhou
 
 A Round Game
--wpp sb
--I love Firsbee
+ - wpp sb
+ - I love Firsbee
 #Good
 
 
