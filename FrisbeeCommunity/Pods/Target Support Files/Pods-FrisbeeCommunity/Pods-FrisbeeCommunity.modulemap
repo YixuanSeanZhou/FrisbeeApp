@@ -1,0 +1,6 @@
+framework module Pods_FrisbeeCommunity {
+  umbrella header "Pods-FrisbeeCommunity-umbrella.h"
+
+  export *
+  module * { export * }
+}

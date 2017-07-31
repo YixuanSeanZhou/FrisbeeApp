@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		628056D91F363BE9AA0A88EB /* Pods_FrisbeeCommunity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B73D40E898EABE0AD31F7D /* Pods_FrisbeeCommunity.framework */; };
+		E425A4A41F2AE134007232CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E425A4A31F2AE134007232CD /* AppDelegate.swift */; };
+		E425A4AE1F2AE134007232CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E425A4AD1F2AE134007232CD /* Assets.xcassets */; };
+		E95EAFD31F2B30E200F367FA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95EAFD21F2B30E200F367FA /* User.swift */; };
+		E97A2B461F2B09B10026D393 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97A2B451F2B09B10026D393 /* ViewController.swift */; };
+		E97A2B4C1F2B0A590026D393 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E97A2B4A1F2B0A590026D393 /* Main.storyboard */; };
+		E97A2B4E1F2B0A6E0026D393 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E97A2B4D1F2B0A6E0026D393 /* Login.storyboard */; };
+		E97A2B501F2B0AC50026D393 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97A2B4F1F2B0AC50026D393 /* LoginViewController.swift */; };
+		E97A2B581F2B0D0E0026D393 /* Storyboard+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97A2B571F2B0D0E0026D393 /* Storyboard+Utility.swift */; };
+		E987D8BA1F2E2F1700511979 /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E987D8B91F2E2F1700511979 /* CreateUsernameViewController.swift */; };
+		E9E8750E1F2ED190007EC169 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9E8750D1F2ED190007EC169 /* GoogleService-Info.plist */; };
+		E9E875121F2EF5FF007EC169 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E875111F2EF5FF007EC169 /* Constants.swift */; };
+		E9E875141F2EF613007EC169 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9E875131F2EF613007EC169 /* LaunchScreen.storyboard */; };
+		E9E875161F2EFA34007EC169 /* pickUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9E875151F2EFA34007EC169 /* pickUp.storyboard */; };
+		E9E8751B1F2EFF8E007EC169 /* pickUpGame.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9E8751A1F2EFF8E007EC169 /* pickUpGame.storyboard */; };
+		E9E8751D1F2F0ABE007EC169 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E8751C1F2F0ABE007EC169 /* UserService.swift */; };
+		E9E8751F1F2F0C99007EC169 /* PickupGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E8751E1F2F0C99007EC169 /* PickupGameController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6007FDBA4D87EE0971BBABC8 /* Pods-FrisbeeCommunity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrisbeeCommunity.release.xcconfig"; path = "Pods/Target Support Files/Pods-FrisbeeCommunity/Pods-FrisbeeCommunity.release.xcconfig"; sourceTree = "<group>"; };
+		78B73D40E898EABE0AD31F7D /* Pods_FrisbeeCommunity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FrisbeeCommunity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8BE32D0DB4543652DD63105 /* Pods-FrisbeeCommunity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrisbeeCommunity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FrisbeeCommunity/Pods-FrisbeeCommunity.debug.xcconfig"; sourceTree = "<group>"; };
+		E425A4A01F2AE134007232CD /* FrisbeeCommunity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrisbeeCommunity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E425A4A31F2AE134007232CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E425A4AD1F2AE134007232CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E425A4B21F2AE134007232CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E95EAFD21F2B30E200F367FA /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E97A2B451F2B09B10026D393 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Controller/ViewController.swift; sourceTree = "<group>"; };
+		E97A2B4A1F2B0A590026D393 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboard/Main.storyboard; sourceTree = "<group>"; };
+		E97A2B4D1F2B0A6E0026D393 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		E97A2B4F1F2B0AC50026D393 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E97A2B571F2B0D0E0026D393 /* Storyboard+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Storyboard+Utility.swift"; sourceTree = "<group>"; };
+		E987D8B91F2E2F1700511979 /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
+		E9E8750D1F2ED190007EC169 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E9E875111F2EF5FF007EC169 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Models/Constants.swift; sourceTree = "<group>"; };
+		E9E875131F2EF613007EC169 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Storyboard/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9E875151F2EFA34007EC169 /* pickUp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = pickUp.storyboard; sourceTree = "<group>"; };
+		E9E8751A1F2EFF8E007EC169 /* pickUpGame.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = pickUpGame.storyboard; sourceTree = "<group>"; };
+		E9E8751C1F2F0ABE007EC169 /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		E9E8751E1F2F0C99007EC169 /* PickupGameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickupGameController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E425A49D1F2AE134007232CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				628056D91F363BE9AA0A88EB /* Pods_FrisbeeCommunity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E28E00158619D8A9B16716C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8BE32D0DB4543652DD63105 /* Pods-FrisbeeCommunity.debug.xcconfig */,
+				6007FDBA4D87EE0971BBABC8 /* Pods-FrisbeeCommunity.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B2DCBA4D59F98884BFA6CCE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78B73D40E898EABE0AD31F7D /* Pods_FrisbeeCommunity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E425A4971F2AE134007232CD = {
+			isa = PBXGroup;
+			children = (
+				E425A4A21F2AE134007232CD /* FrisbeeCommunity */,
+				E425A4A11F2AE134007232CD /* Products */,
+				4E28E00158619D8A9B16716C /* Pods */,
+				B2DCBA4D59F98884BFA6CCE2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E425A4A11F2AE134007232CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E425A4A01F2AE134007232CD /* FrisbeeCommunity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E425A4A21F2AE134007232CD /* FrisbeeCommunity */ = {
+			isa = PBXGroup;
+			children = (
+				E425A4A31F2AE134007232CD /* AppDelegate.swift */,
+				E97A2B471F2B09B90026D393 /* Controller */,
+				E97A2B531F2B0C5D0026D393 /* Service */,
+				E97A2B541F2B0C640026D393 /* Extensions */,
+				E97A2B521F2B0C550026D393 /* Source */,
+				E97A2B481F2B0A450026D393 /* Storyboard */,
+				E97A2B511F2B0C460026D393 /* Models */,
+				E425A4AD1F2AE134007232CD /* Assets.xcassets */,
+				E97A2B551F2B0C6D0026D393 /* Supportings */,
+			);
+			path = FrisbeeCommunity;
+			sourceTree = "<group>";
+		};
+		E97A2B471F2B09B90026D393 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E97A2B451F2B09B10026D393 /* ViewController.swift */,
+				E97A2B4F1F2B0AC50026D393 /* LoginViewController.swift */,
+				E987D8B91F2E2F1700511979 /* CreateUsernameViewController.swift */,
+				E9E8751E1F2F0C99007EC169 /* PickupGameController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E97A2B481F2B0A450026D393 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				E97A2B4A1F2B0A590026D393 /* Main.storyboard */,
+				E97A2B4D1F2B0A6E0026D393 /* Login.storyboard */,
+				E9E875151F2EFA34007EC169 /* pickUp.storyboard */,
+				E9E8751A1F2EFF8E007EC169 /* pickUpGame.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		E97A2B511F2B0C460026D393 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E95EAFD21F2B30E200F367FA /* User.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E97A2B521F2B0C550026D393 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		E97A2B531F2B0C5D0026D393 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E9E8751C1F2F0ABE007EC169 /* UserService.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		E97A2B541F2B0C640026D393 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E97A2B571F2B0D0E0026D393 /* Storyboard+Utility.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		E97A2B551F2B0C6D0026D393 /* Supportings */ = {
+			isa = PBXGroup;
+			children = (
+				E9E875131F2EF613007EC169 /* LaunchScreen.storyboard */,
+				E9E875111F2EF5FF007EC169 /* Constants.swift */,
+				E9E8750D1F2ED190007EC169 /* GoogleService-Info.plist */,
+				E425A4B21F2AE134007232CD /* Info.plist */,
+			);
+			name = Supportings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E425A49F1F2AE134007232CD /* FrisbeeCommunity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E425A4B51F2AE134007232CD /* Build configuration list for PBXNativeTarget "FrisbeeCommunity" */;
+			buildPhases = (
+				34D0CE8AD7B384575FE4F46D /* [CP] Check Pods Manifest.lock */,
+				E425A49C1F2AE134007232CD /* Sources */,
+				E425A49D1F2AE134007232CD /* Frameworks */,
+				E425A49E1F2AE134007232CD /* Resources */,
+				A1B9BD6B73086DBD018E47C0 /* [CP] Embed Pods Frameworks */,
+				E9021A7E060FD46D892CF696 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FrisbeeCommunity;
+			productName = FrisbeeCommunity;
+			productReference = E425A4A01F2AE134007232CD /* FrisbeeCommunity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E425A4981F2AE134007232CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Thomas;
+				TargetAttributes = {
+					E425A49F1F2AE134007232CD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 46FRJN92ZC;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E425A49B1F2AE134007232CD /* Build configuration list for PBXProject "FrisbeeCommunity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E425A4971F2AE134007232CD;
+			productRefGroup = E425A4A11F2AE134007232CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E425A49F1F2AE134007232CD /* FrisbeeCommunity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E425A49E1F2AE134007232CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E425A4AE1F2AE134007232CD /* Assets.xcassets in Resources */,
+				E9E8751B1F2EFF8E007EC169 /* pickUpGame.storyboard in Resources */,
+				E9E8750E1F2ED190007EC169 /* GoogleService-Info.plist in Resources */,
+				E97A2B4E1F2B0A6E0026D393 /* Login.storyboard in Resources */,
+				E9E875141F2EF613007EC169 /* LaunchScreen.storyboard in Resources */,
+				E9E875161F2EFA34007EC169 /* pickUp.storyboard in Resources */,
+				E97A2B4C1F2B0A590026D393 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34D0CE8AD7B384575FE4F46D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A1B9BD6B73086DBD018E47C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FrisbeeCommunity/Pods-FrisbeeCommunity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9021A7E060FD46D892CF696 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FrisbeeCommunity/Pods-FrisbeeCommunity-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E425A49C1F2AE134007232CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97A2B501F2B0AC50026D393 /* LoginViewController.swift in Sources */,
+				E95EAFD31F2B30E200F367FA /* User.swift in Sources */,
+				E9E8751D1F2F0ABE007EC169 /* UserService.swift in Sources */,
+				E97A2B461F2B09B10026D393 /* ViewController.swift in Sources */,
+				E425A4A41F2AE134007232CD /* AppDelegate.swift in Sources */,
+				E97A2B581F2B0D0E0026D393 /* Storyboard+Utility.swift in Sources */,
+				E987D8BA1F2E2F1700511979 /* CreateUsernameViewController.swift in Sources */,
+				E9E875121F2EF5FF007EC169 /* Constants.swift in Sources */,
+				E9E8751F1F2F0C99007EC169 /* PickupGameController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E425A4B31F2AE134007232CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E425A4B41F2AE134007232CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E425A4B61F2AE134007232CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8BE32D0DB4543652DD63105 /* Pods-FrisbeeCommunity.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 46FRJN92ZC;
+				INFOPLIST_FILE = FrisbeeCommunity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.FrisbeeCommunity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E425A4B71F2AE134007232CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6007FDBA4D87EE0971BBABC8 /* Pods-FrisbeeCommunity.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 46FRJN92ZC;
+				INFOPLIST_FILE = FrisbeeCommunity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.FrisbeeCommunity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E425A49B1F2AE134007232CD /* Build configuration list for PBXProject "FrisbeeCommunity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E425A4B31F2AE134007232CD /* Debug */,
+				E425A4B41F2AE134007232CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E425A4B51F2AE134007232CD /* Build configuration list for PBXNativeTarget "FrisbeeCommunity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E425A4B61F2AE134007232CD /* Debug */,
+				E425A4B71F2AE134007232CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E425A4981F2AE134007232CD /* Project object */;
+}

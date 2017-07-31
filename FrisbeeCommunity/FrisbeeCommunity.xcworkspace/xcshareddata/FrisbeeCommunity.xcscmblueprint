@@ -1,0 +1,65 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5849C147CF301D531E138A3729B15B1C3522DED8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "889D576D0E0ACBEC5A52AA36D3DD90DCDBC2E90D" : 9223372036854775807,
+    "17FB51EC7B87DC25DD21E28FDFD877B479CFFAC1" : 9223372036854775807,
+    "B51A9F403F3E3C225FD4A9AA219BC6D4AFDE565E" : 9223372036854775807,
+    "5849C147CF301D531E138A3729B15B1C3522DED8" : 9223372036854775807,
+    "5CED6AF91FD026990164626F5C6832812E4926ED" : 9223372036854775807,
+    "80EB3D10AA165C77E65605DF7E6F4C7190CE9677" : 9223372036854775807,
+    "081397C5E6F62AEF790C29278F1FFFCBC5585FB2" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0A844EF0-AD11-48D2-BD15-0A1E5DA48CEF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "889D576D0E0ACBEC5A52AA36D3DD90DCDBC2E90D" : "OptionalHomework\/ios_development\/",
+    "17FB51EC7B87DC25DD21E28FDFD877B479CFFAC1" : "makestagram\/Kingfisher\/",
+    "B51A9F403F3E3C225FD4A9AA219BC6D4AFDE565E" : "makestagram\/",
+    "5849C147CF301D531E138A3729B15B1C3522DED8" : "FrisbeeApp\/",
+    "5CED6AF91FD026990164626F5C6832812E4926ED" : "MakestagramV\/",
+    "80EB3D10AA165C77E65605DF7E6F4C7190CE9677" : "OptionalHomework\/",
+    "081397C5E6F62AEF790C29278F1FFFCBC5585FB2" : "PracticeofJSONandAPI\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FrisbeeCommunity",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FrisbeeCommunity\/FrisbeeCommunity.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/YixuanZhouThomas\/PracticeofJSONandAPI.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "081397C5E6F62AEF790C29278F1FFFCBC5585FB2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/onevcat\/Kingfisher.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "17FB51EC7B87DC25DD21E28FDFD877B479CFFAC1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/YixuanZhouThomas\/FrisbeeApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5849C147CF301D531E138A3729B15B1C3522DED8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/YixuanZhouThomas\/MakestagramV.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5CED6AF91FD026990164626F5C6832812E4926ED"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/YixuanZhouThomas\/OptionalHomework.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "80EB3D10AA165C77E65605DF7E6F4C7190CE9677"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/brewinglab\/ios_development.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "889D576D0E0ACBEC5A52AA36D3DD90DCDBC2E90D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/YixuanZhouThomas\/makestagram.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B51A9F403F3E3C225FD4A9AA219BC6D4AFDE565E"
+    }
+  ]
+}

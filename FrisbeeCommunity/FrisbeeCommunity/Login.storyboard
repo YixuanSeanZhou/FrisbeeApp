@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F2073" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="XKW-hh-2es">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Frisbee-->
+        <scene sceneID="8V8-HX-gRY">
+            <objects>
+                <viewController title="Frisbee" id="LdD-du-6A9" customClass="LoginViewController" customModule="FrisbeeCommunity" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hOc-dM-OjY"/>
+                        <viewControllerLayoutGuide type="bottom" id="1Hf-9F-3Do"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tUu-7f-Viw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Gw-SV-m8Y">
+                                <rect key="frame" x="46" y="318" width="283" height="40"/>
+                                <color key="backgroundColor" red="0.60970052083333337" green="0.59635416666666663" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Yb9-wk-awZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <state key="normal" title="Join US Now">
+                                    <color key="titleColor" red="0.32948133680555558" green="1" blue="0.31903754340277779" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="1" green="0.44341362847222221" blue="0.41126844618055558" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="loginButtonPressed:" destination="LdD-du-6A9" eventType="touchUpInside" id="p1J-z2-aZX"/>
+                                    <segue destination="VZ2-UR-Gmo" kind="show" identifier="toCreateUsername" id="9ge-8n-9zR"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yoli-marin" translatesAutoresizingMaskIntoConstraints="NO" id="V8X-BR-ia6">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="248"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="V8X-BR-ia6" secondAttribute="height" multiplier="343:228" constant="1.5" id="giP-1I-r7u"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="hOc-dM-OjY" firstAttribute="bottom" secondItem="V8X-BR-ia6" secondAttribute="top" constant="20" id="DGb-Aw-ZPN"/>
+                            <constraint firstItem="V8X-BR-ia6" firstAttribute="leading" secondItem="tUu-7f-Viw" secondAttribute="leading" id="EOd-ur-D7q"/>
+                            <constraint firstItem="3Gw-SV-m8Y" firstAttribute="top" secondItem="V8X-BR-ia6" secondAttribute="bottom" constant="70" id="NUZ-eL-ITe"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3Gw-SV-m8Y" secondAttribute="trailing" constant="30" id="NcE-AS-c0j"/>
+                            <constraint firstAttribute="trailing" secondItem="V8X-BR-ia6" secondAttribute="trailing" id="U8v-KN-oJN"/>
+                            <constraint firstItem="3Gw-SV-m8Y" firstAttribute="leading" secondItem="tUu-7f-Viw" secondAttribute="leadingMargin" constant="30" id="gvu-OU-B4K"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="jgM-KW-aA8"/>
+                    <connections>
+                        <outlet property="loginButton" destination="3Gw-SV-m8Y" id="rew-IB-wMU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d8i-eY-opG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="976.79999999999995" y="-0.44977511244377816"/>
+        </scene>
+        <!--Create Username View Controller-->
+        <scene sceneID="V5t-lw-PAk">
+            <objects>
+                <viewController id="VZ2-UR-Gmo" customClass="CreateUsernameViewController" customModule="FrisbeeCommunity" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9AN-d1-Nxf"/>
+                        <viewControllerLayoutGuide type="bottom" id="VHb-mG-Lm5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xvg-nV-vYl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="9SS-jJ-1bd">
+                                <rect key="frame" x="0.0" y="50" width="375" height="175.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Creat A User Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xGm-Bd-jjj">
+                                        <rect key="frame" x="41.5" y="0.0" width="292" height="45.5"/>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="32"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Write Your Name So That Your Friends can Finds You" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ORf-bh-OA9">
+                                        <rect key="frame" x="27.5" y="55.5" width="320" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="nOl-eb-fHs"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="18"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="The Name Used While Playing Frisbee" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xPC-Zi-ilQ">
+                                        <rect key="frame" x="54" y="145.5" width="267" height="30"/>
+                                        <color key="backgroundColor" red="0.57126193576388884" green="0.5732421875" blue="0.62630208333333337" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lGL-Dq-1KS">
+                                <rect key="frame" x="139" y="313" width="97" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.35997178819444442" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="24"/>
+                                <state key="normal" title="CREATE">
+                                    <color key="titleColor" red="0.0" green="0.23456488715277779" blue="0.23258463541666666" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="1" green="1" blue="0.35997178819444442" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="createButtonPressed:" destination="VZ2-UR-Gmo" eventType="touchUpInside" id="UoO-gl-GWR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="9SS-jJ-1bd" firstAttribute="leading" secondItem="xvg-nV-vYl" secondAttribute="leading" id="Qwm-qv-at7"/>
+                            <constraint firstAttribute="trailing" secondItem="9SS-jJ-1bd" secondAttribute="trailing" id="mgw-jN-Mwu"/>
+                            <constraint firstItem="9SS-jJ-1bd" firstAttribute="top" secondItem="xvg-nV-vYl" secondAttribute="top" constant="50" id="uge-qS-VOh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cerateButton" destination="lGL-Dq-1KS" id="G9x-Ux-9Qu"/>
+                        <outlet property="userName" destination="xPC-Zi-ilQ" id="i1V-TC-ts4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aBl-U7-XVu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1972" y="0.0"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="izT-Qb-3Yv">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="XKW-hh-2es" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="PfA-TK-8In">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="LdD-du-6A9" kind="relationship" relationship="rootViewController" id="cJA-Fh-F8E"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zIk-He-JDB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="37.600000000000001" y="-0.44977511244377816"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="yoli-marin" width="960" height="640"/>
+    </resources>
+    <color key="tintColor" red="0.0" green="0.0" blue="0.4074978298611111" alpha="1" colorSpace="calibratedRGB"/>
+</document>
